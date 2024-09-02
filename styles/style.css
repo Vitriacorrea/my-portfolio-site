@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.banner {
+    background-color: #666;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px; /* Espaço entre os itens */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+}
+
+.gallery-item {
+    flex: 1 1 calc(33.333% - 30px); /* Ajusta o tamanho dos itens */
+    max-width: calc(33.333% - 30px); /* Ajusta o tamanho máximo dos itens */
+    box-sizing: border-box; /* Inclui padding e border no tamanho total do elemento */
+}
+
+.index-image {
+    width: 100%; /* Ajusta o tamanho da imagem para 100% do contêiner */
+    max-width: 400px; /* Define o tamanho máximo da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.project-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center; /* Centraliza os itens horizontalmente */
+}
+
+.portfolio-image {
+    width: 100%; /* Ajusta o tamanho da imagem para 100% do contêiner */
+    max-width: 400px; /* Define o tamanho máximo da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 1.2em; /* Tamanho do texto do subtítulo */
+    color: #333; /* Cor do texto do subtítulo */
+    margin-top: 0; /* Remove a margem superior do subtítulo */
+    margin-bottom: 20px; /* Adiciona a margem inferior do subtítulo */
+}
+
+.profile-image {
+    width: 150px;
+    border-radius: 50%;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact label {
+    margin-bottom: 5px;
+}
+
+.contact input, .contact textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact button {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.contact button:hover {
+    background-color: #555;
+}
